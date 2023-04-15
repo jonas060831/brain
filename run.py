@@ -11,4 +11,4 @@ if __name__ == "__main__":
         print(f"Server is now up and Running on port {os.getenv('PORT')}")
         serve(app, host="0.0.0.0", port=os.getenv('PORT'))
     else:
-        app.run(port=8000, debug=True)
+        app.run(port=os.getenv('PORT'), debug=True)

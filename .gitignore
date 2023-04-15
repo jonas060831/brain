@@ -4,3 +4,6 @@
 
 #virtual environment directory
 /venv
+
+#ignore pm2 custom log
+api.log
